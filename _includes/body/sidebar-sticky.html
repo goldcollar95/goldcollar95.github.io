@@ -28,13 +28,6 @@
         {% include body/nav.html %}
     </nav>
 
-    <!--블로그프로필 이미지-->
-    {% if site.logo %}
-    <a class="no-hover" style="margin-bottom: 50px;" href="{{ '/' | relative_url }}" tabindex="-1">
-        <img src="{% include_cached smart-url url=site.logo %}" class="avatar" alt="{{ site.short_title | default:site.title }}" width="130" height="130" loading="lazy" />
-    </a>
-    {% endif %}
-
     <!--소셜바-->
     {% assign author = site.data.authors.first[1] | default:site.author %}
     <div class="sidebar-social">
