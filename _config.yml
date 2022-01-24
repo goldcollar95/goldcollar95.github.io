@@ -20,18 +20,18 @@ url:                   https://goldcollar95.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 ㄳㅁ
+title:                 김상문님의 깃블로그
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  ㅎㅇ
+  깃블로그를 통해 공부를 기록하는 곳입니다.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:              Backend Developer
 
 # A list of keywords for your blog
-keywords:              [11]
+keywords:              [Backend Dev]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
